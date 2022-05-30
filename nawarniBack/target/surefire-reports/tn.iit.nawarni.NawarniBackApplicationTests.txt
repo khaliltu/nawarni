@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: tn.iit.nawarni.NawarniBackApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.824 s - in tn.iit.nawarni.NawarniBackApplicationTests

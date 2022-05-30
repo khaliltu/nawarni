@@ -1,0 +1,26 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: appAuth
+  main:
+    allow-bean-definition-overriding: true
+  jpa:
+    database: mysql
+    show-sql: true
+    generate-ddl: true
+    properties:
+      hibernate:
+        ddl-auto: update
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  datasource:
+    url: jdbc:mysql://localhost/nawarni?createDatabaseIfNotExsist=true
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  security.enable-csrf: false
+azure:
+  activedirectory:
+    client-id: 6f506c67-2004-48a2-86b0-3dde6f76537d
+    app-id-uri: api://6f506c67-2004-48a2-86b0-3dde6f76537d
+
